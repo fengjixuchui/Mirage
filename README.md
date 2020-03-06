@@ -48,20 +48,15 @@
 3. 计划支持~~已支持windbg~~、[cutter](https://github.com/radareorg/cutter)、[ghidra](https://github.com/NationalSecurityAgency/ghidra) 。后俩者需要它们本身先支持调试功能
 
 
-#### 技术支持(包括但不限于反反调试、驱动读写、驱动注入...
-> 如果你要支持某一特定程序或系统, 请邮件联系我，我将成为你的私人技术支持... （*很明显这将是付费的.*
-
-
-
 #### 使用
-0. 使用[`PDBDownloader.exe`](https://github.com/rajkumar-rangaraj/PDB-Downloader)下载`ntoskrnl.exe`文件 (默认在下载在C盘
+0. 使用[`PDBDownloader.exe`](https://github.com/rajkumar-rangaraj/PDB-Downloader)下载`ntoskrnl.exe`的`pdb`文件 (默认在下载在C盘
 
 ![image](https://user-images.githubusercontent.com/16742566/68540402-a6827280-03cc-11ea-9e5e-b54916db71f5.png)
 
 ------------------------------------------
 
 
-1. 使用`MVConfigBuild.exe`生成`config.mv`配置文件 并将之移动到c盘根目录`C:\`
+1. 使用`MVConfigBuild.exe ntoskrnl.pdb`生成`config.mv`配置文件 并将之移动到c盘根目录`C:\`
 
 *管理员启动CMD*:
 
@@ -124,7 +119,7 @@
 
 
 #### 当前版本
-[v20191213](https://github.com/stonedreamforest/Mirage/releases/tag/v20191213)
+[v20200224](https://github.com/stonedreamforest/Mirage/releases/tag/v20200224)
 
 #### [点击查看：历史版本及最新版](https://github.com/stonedreamforest/Mirage/releases)
 
